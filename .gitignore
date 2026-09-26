@@ -1,0 +1,49 @@
+# === SECRETS — NEVER COMMIT ===
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+
+# ML artifacts (large files)
+ml/models/*.pkl
+ml/models/*.joblib
+ml/models/*.pt
+!ml/models/.gitkeep
+
+# Logs
+logs/*.log
+!logs/.gitkeep
+
+# Data cache
+data/cache/
+*.parquet
+*.feather
+
+# Database
+*.db
+*.sqlite3
+
+# Node (frontend Phase 6)
+node_modules/
+dist/
+.parcel-cache/
+frontend/.env
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
