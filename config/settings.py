@@ -28,7 +28,7 @@ class Settings(BaseSettings):
     square_off_minute: int = 15
 
     # LLM filter
-    gemini_api_key: str  = "AQ.Ab8RN6KkskcL7puMiEXPqcmftpHUvQj3GHGYvYn6pd-HUKMMRA"
+    gemini_api_key: str  = "YOUR API"
     gemini_model:   str  = "gemini-1.5-flash"
     use_gemini:     bool = False
 
